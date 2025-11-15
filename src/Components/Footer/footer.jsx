@@ -61,6 +61,9 @@ export default function Footer() {
               method="POST"
               className="contact-form"
             >
+              <input type="hidden" name="_replyto" value="atuba4568@gmail.com" />
+  <input type="hidden" name="_subject" value="New Portfolio Message" />
+  <input type="hidden" name="_redirect" value="https://my-portfolio-gamma-brown-78.vercel.app/" />
               <div className="form-group">
                 <input
                   type="text"
