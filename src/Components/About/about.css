@@ -66,6 +66,11 @@
   font-size: 20px;
   background-color: rgb(0 0 0 / 15%);
 }
+.discover .collections p {
+  margin: 10px 50px;
+  text-align: justify;
+  line-height:  1.6;
+}
 
 /* ======================================= */
 /* ========== TABLET (≤ 1024px) ========== */
@@ -142,9 +147,34 @@
    
   }
 
-  .discover .collections .box .txt p {
+  .discover .collections .box .txt {
     font-size: 15px;
     line-height: 1.6;
     text-align: left;
+  }
+  .discover .collections p {
+    margin: 10px 20px;
+    text-align: justify;
+    line-height:  1.2;
+  }
+}
+@media (max-width: 380px) {
+  .discover .collections .box {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .box img {
+    height: 220px;
+  }
+
+  .discover .collections .txt  {
+    font-size: 14px;
+    text-align: left;
+  }
+  .discover .collections p {
+    margin: 10px 20px;
+    text-align: justify;
+    line-height:  1.6;
   }
 }

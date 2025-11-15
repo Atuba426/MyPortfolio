@@ -39,11 +39,7 @@ export default function About() {
               Overview
             </h2>
             <p
-              style={{
-                margin: "10px 50px",
-                textAlign: "justify",
-                lineHeight: " 1.6",
-              }}
+              
             >
               👋<b> Hi, I'm Ayesha — Aspiring Software Engineer </b>
               I'm a passionate and curious tech enthusiast currently pursuing my
@@ -54,11 +50,7 @@ export default function About() {
               development.
             </p>
             <p
-              style={{
-                margin: "10px 50px",
-                textAlign: "justify",
-                lineHeight: "1.6",
-              }}
+              
             >
               I'm always exploring new tools and technologies — recently diving
               deeper into C++ and database management.When I’m not coding,
@@ -67,11 +59,7 @@ export default function About() {
               academics.
             </p>
             <p
-              style={{
-                margin: "10px 50px",
-                textAlign: "justify",
-                lineHeight: "1.6",
-              }}
+              
             >
               I believe in continuous learning and love building things that
               challenge me to grow. My goal is to create clean, user-friendly,
