@@ -1,0 +1,57 @@
+.skillsSection {
+  background-color: #343a40;
+}
+
+h2 {
+  text-align: center;
+  color: aqua;
+}
+.p1 {
+  text-align: center;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.card {
+    width: 250px;
+    max-width: 25rem;
+  height: auto;
+  margin-bottom: 1rem;
+  color: aqua;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease,
+    transform 0.4s ease;
+}
+.cardBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card:hover {
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.389);
+  transform: translateY(-2px);
+}
+.cardTitle {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.cardText {
+  margin-bottom: 1rem;
+  color: aqua;
+  padding: 0.1rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}

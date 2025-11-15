@@ -1,0 +1,115 @@
+.recommendedArticle{
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    color: white;
+    background-color: #343a40;
+}
+.recommendedArticle .container{
+display: flex;
+flex-direction: column;
+padding: 0;
+max-width: 1200px;
+}
+.artcleHead{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.row1{
+    width: 45%;
+    margin-top: 0.8rem;
+    border-radius: 10px;
+}
+.row2{
+    width: 42%;
+    padding-left: 1rem;
+  padding-right: 1rem;
+}
+#myVideoPlayer{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .recommendedArticle {
+      padding: 60px 20px; /* Reduce vertical padding and add horizontal padding */
+    }
+  
+    .recommendedArticle .container {
+      padding: 0 15px; /* Ensure content is nicely padded within the max-width */
+    }
+  
+    .artcleHead {
+      /* Allow the header elements to stack or adjust if needed */
+      flex-direction: column; 
+      align-items: center;
+      padding-bottom: 30px;
+    }
+  
+    .row {
+      /* Switch to single column layout */
+      flex-direction: column;
+      margin: 1rem 0; /* Adjust vertical margins */
+      
+      /* Remove the negative margins that typically center a full-width grid */
+      margin-left: 0; 
+      margin-right: 0;
+    }
+  
+    .row1,
+    .row2 {
+      /* Make both columns full width for stacking */
+      width: 100%;
+      padding: 0 15px; /* Add internal padding */
+      margin-top: 1.5rem; /* Add space between stacked items */
+    }
+    
+    .row1 {
+      margin-top: 0; /* Remove top margin for the first item in the stack */
+    }
+  
+    #myVideoPlayer {
+      /* Ensure the video scales down and is centered */
+      max-width: 100%;
+      padding: 0; /* Remove excessive padding defined in desktop view */
+      margin: 0 auto; /* Center the video player */
+      display: block;
+      height: auto; /* Ensure height scales with width */
+    }
+  }
+  
+  /* --- Max Width 480px (For Mobile Devices) --- */
+  @media (max-width: 480px) {
+    .recommendedArticle {
+      padding: 40px 10px; /* Further reduce overall padding */
+    }
+    
+    .recommendedArticle .container {
+      padding: 0 10px;
+    }
+  
+    .row1,
+    .row2 {
+      padding: 0 5px; /* Minimal padding on the sides */
+      margin-top: 1rem;
+    }
+  
+    .artcleHead {
+      padding-bottom: 20px;
+    }
+}
