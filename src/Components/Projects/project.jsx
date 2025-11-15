@@ -45,6 +45,7 @@ export default function Project() {
                 style={{ color: "#00adb5" }}
               >
                 WanderLust <br />
+                <a href="https://wanderlust-jkza.onrender.com/">View Live</a>
                 <span style={{ fontSize: "14px", color: "#00adb5" }}>
                   <i className="fa-solid fa-calendar-days"> </i> &nbsp;
                   <span>2025</span>
@@ -127,6 +128,7 @@ export default function Project() {
                 >
                   NetPro <br />
                   <span style={{ fontSize: "14px", color: "#00adb5" }}>
+                  <a href="https://net-pro-five.vercel.app//">View Live</a>
                     <i className="fa-solid fa-calendar-days"> </i> &nbsp;
                     <span>2025</span>
                   </span>
@@ -211,6 +213,7 @@ export default function Project() {
                 >
                   CA DocSuite <br />
                   <span style={{ fontSize: "14px", color: "#00adb5" }}>
+                  <a href="https://wanderlust-jkza.onrender.com/">View Live</a>
                     <i className="fa-solid fa-calendar-days"> </i> &nbsp;
                     <span>2025</span>
                   </span>

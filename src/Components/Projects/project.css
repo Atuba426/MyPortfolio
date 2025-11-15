@@ -37,6 +37,13 @@ max-width: 1200px;
     padding-left: 1rem;
   padding-right: 1rem;
 }
+a{
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: rgb(45, 182, 182);
+  padding: 1rem;
+
+}
 #myVideoPlayer{
     max-width: 600px;
     width: 100%;
