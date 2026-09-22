@@ -49,7 +49,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <p className="text">MERN Stack Developer, currently in 2nd Year</p>
+            <p className="text">MERN Stack Developer, currently in 3rd Year</p>
             <a href="/" className="logo">
               <img src="/signiture.png" alt="logo" />
             </a>
