@@ -101,7 +101,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p>copyright © 2025. All rights reserved.</p>
+      <p>copyright © 2026. All rights reserved.</p>
     </footer>
   );
 }

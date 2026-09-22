@@ -44,15 +44,15 @@ export default function Project() {
                 data-aos="fade-up"
                 style={{ color: "#00adb5" }}
               >
-                WanderLust <br />
+                ExploreX <br />
                 <a href="https://wanderlust-jkza.onrender.com/">View Live</a>
                 <span style={{ fontSize: "14px", color: "#00adb5" }}>
                   <i className="fa-solid fa-calendar-days"> </i> &nbsp;
-                  <span>2025</span>
+                  <span>2026</span>
                 </span>
               </h2>
               <p>
-                Wanderlust is a modern stay-booking platform that allows users
+               ExploreX is a modern stay-booking platform that allows users
                 to explore, filter, and book accommodations seamlessly with a
                 smooth and responsive UI.
               </p>
@@ -61,9 +61,7 @@ export default function Project() {
               </h5>
               <div className="custom-carousel row">
                 <div className=" col-1 carousel-controls">
-                  <button className="prev-button-class">
-                    <i className="fa-solid fa-caret-left"></i>
-                  </button>
+                
                 </div>
                 <div
                   className="col-10 carousel-container"
@@ -91,9 +89,7 @@ export default function Project() {
                   </div>
                 </div>
                 <div className="carousel-controls col-1">
-                  <button className="next-button-class">
-                    <i className="fa-solid fa-caret-right"> </i>
-                  </button>
+                 
                 </div>
               </div>
             </div>
@@ -130,7 +126,7 @@ export default function Project() {
                   <span style={{ fontSize: "14px", color: "#00adb5" }}>
                   <a href="https://net-pro-five.vercel.app//">View Live</a>
                     <i className="fa-solid fa-calendar-days"> </i> &nbsp;
-                    <span>2025</span>
+                    <span>2026</span>
                   </span>
                 </h2>
                 <p>
@@ -145,9 +141,6 @@ export default function Project() {
                 <div className="custom-carousel row">
                   <div className=" col-1 carousel-controls">
                   
-                    <button className="prev-button-class">
-                      <i className="fa-solid fa-caret-left"></i>
-                    </button>
                   </div>
                   <div
                     className="col-10 carousel-container"
@@ -175,9 +168,7 @@ export default function Project() {
                     </div>
                   </div>
                   <div className="carousel-controls col-1">
-                    <button className="next-button-class">
-                      <i className="fa-solid fa-caret-right"> </i>
-                    </button>
+                  
                   </div>
                 </div>
               </div>
@@ -215,7 +206,7 @@ export default function Project() {
                   <span style={{ fontSize: "14px", color: "#00adb5" }}>
                   <a href="https://wanderlust-jkza.onrender.com/">View Live</a>
                     <i className="fa-solid fa-calendar-days"> </i> &nbsp;
-                    <span>2025</span>
+                    <span>2026</span>
                   </span>
                 </h2>
                 <p>
@@ -228,9 +219,7 @@ export default function Project() {
                 <div className="custom-carousel row">
                   <div className=" col-1 carousel-controls">
                   
-                    <button className="prev-button-class">
-                      <i className="fa-solid fa-caret-left"></i>
-                    </button>
+                  
                   </div>
                   <div
                     className="col-10 carousel-container"
@@ -258,9 +247,7 @@ export default function Project() {
                     </div>
                   </div>
                   <div className="carousel-controls col-1">
-                    <button className="next-button-class">
-                      <i className="fa-solid fa-caret-right"> </i>
-                    </button>
+                   
                   </div>
                 </div>
               </div>

@@ -13,14 +13,15 @@ export default function About() {
         <div className="collections">
           <div className="box" data-aos="fade-up" data-aos-duration="3000">
             <img
-              src="./Ayesha.jpg"
-              alt="my photo"
+              src="./coder-at-work-stockcake.jpg"
+              alt="Ayesha Tuba"
               data-aos="fade-up"
               data-aos-duration="1100"
-            ></img>
+            />
+
             <div className="txt">
-              <h3>Ayesha Q</h3>
-              <p> Mern Stack Developer</p>
+              <h3>Ayesha Tuba</h3>
+              <p>MERN Stack Developer</p>
             </div>
           </div>
           <div
@@ -38,34 +39,33 @@ export default function About() {
             >
               Overview
             </h2>
-            <p
-              
-            >
-              👋<b> Hi, I'm Ayesha — Aspiring Software Engineer </b>
-              I'm a passionate and curious tech enthusiast currently pursuing my
-              BCA from YCMOU, with a strong interest in full-stack web
-              development and software engineering. I’ve worked on projects like
-              Wanderlust, an Airbnb-inspired platform built using the MERN
-              stack, where I got hands-on experience with real-world
-              development.
-            </p>
-            <p
-              
-            >
-              I'm always exploring new tools and technologies — recently diving
-              deeper into C++ and database management.When I’m not coding,
-              you’ll find me learning about data structures, Computer networks,
-              or brushing up on Mathematical and statistical concepts for my
-              academics.
-            </p>
-            <p
-              
-            >
-              I believe in continuous learning and love building things that
-              challenge me to grow. My goal is to create clean, user-friendly,
-              and meaningful digital experiences that solve real problems.
-              <b>Let’s connect and create something impactful together!</b>
-            </p>
+            <p>
+  👋 <b>Hi, I'm Ayesha — Aspiring AI Engineer.</b> <br />
+  I'm a passionate and curious Full-Stack Developer currently pursuing my BCA
+  from YCMOU.
+
+I've worked on projects using the MERN stack and am currently building a
+real-world service-business booking system using <b>Next.js</b>, <b>JavaScript</b>,
+<b>PostgreSQL</b>, and <b>Supabase</b>. I work with <b>SQL</b>, <b>database design</b>, <b>API development</b>,
+ backend logic, and relationships between different parts of an
+application.
+<br />
+
+I have experience with <b>React</b>, <b>JavaScript</b>, and the <b>MERN</b> stack, and I'm
+continuously expanding my skills through real-world projects. When I'm not 
+building projects, you'll find me exploring Python, AI agents, app development 
+and other areas of software development.
+
+
+I enjoy learning by building things, understanding the logic behind them,
+and challenging myself with problems that help me grow as an Enginner. <br />
+
+  <b>
+    I believe in continuous learning and building things that solve real
+    problems.
+  </b>
+</p>
+
             <h2
               style={{
                 marginTop: "40px",
@@ -86,8 +86,8 @@ export default function About() {
               Bachelor of Computer Applications (BCA).
               <br />
               YCMOU Mumbai. <br />
-              Currently in 2nd Year <br />
-              2024-2026
+              Currently in 3rd Year <br />
+              2024-2027
             </p>
           </div>
         </div>

@@ -71,6 +71,27 @@
   text-align: justify;
   line-height:  1.6;
 }
+.box {
+  position: relative;
+}
+
+.box .txt {
+  text-align: center;
+  padding: 15px 10px 20px;
+}
+
+.box .txt h3 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.box .txt p {
+  margin: 0;
+  font-size: 16px;
+  color: #00adb5;
+}
 
 /* ======================================= */
 /* ========== TABLET (≤ 1024px) ========== */
