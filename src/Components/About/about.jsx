@@ -13,7 +13,7 @@ export default function About() {
         <div className="collections">
           <div className="box" data-aos="fade-up" data-aos-duration="3000">
             <img
-              src="./coder-at-work-stockcake.jpg"
+              src="./Ayesha.jpg"
               alt="Ayesha Tuba"
               data-aos="fade-up"
               data-aos-duration="1100"
